@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .App-logo {
@@ -26,6 +28,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App div {
+  border: 1px green solid;
+  padding: 50px;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.answer {
+  background-color: green;
+  color: aliceblue;
 }
 
 @keyframes App-logo-spin {
